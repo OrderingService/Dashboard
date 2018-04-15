@@ -17,7 +17,7 @@
 Records of PML food ordering system development progress.
 
 
-# About
+## About
 PML food ordering system is a WeChat mini programme used for ordering food. It allows customers order food on their cellphones by scanning QR codes. Comparing with traditional staff services, our system avoids potential customers' having hard communication with restaurant staff, as well as provides humanized UI that can improve customers' food ordering experiences. Additionally, our system has the following innovative features that can further improve customers' food ordering experiences: 
 * Intellegent Food Recommendation
 * Queueing Arrangement

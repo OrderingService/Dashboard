@@ -32,7 +32,7 @@ PML food ordering system is a WeChat mini programme used for ordering food. It a
 * 概要设计 & 详细设计：[Chen GuiYan - 陈桂燕][Chen GuiYan], [Serene-Seven - 陈杰鑫][Serene-Seven]
 * 编码 & 测试：
     - 前端：[elevenistaken - 李欢][elevenistaken], [Chen GuiYan - 陈桂燕][Chen GuiYan], [Eros-L - 刘钧元][Eros-L]
-    - 后端：[~chan - 陈思涛](), [yyh15331007 - 蔡云童][yyh15331007], [songB - 李海宏][songB], [Serene-Seven - 陈杰鑫][Serene-Seven]
+    - 后端：[~chan - 陈思涛][~chan], [yyh15331007 - 蔡云童][yyh15331007], [songB - 李海宏][songB], [Serene-Seven - 陈杰鑫][Serene-Seven]
 
 ## Documentation
 

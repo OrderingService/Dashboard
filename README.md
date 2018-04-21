@@ -4,7 +4,7 @@
 [Eros-L]: https://github.com/Eros-L
 [songB]: https://github.com/songB
 [Serene-Seven]: https://github.com/Serene-Seven
-[~chan]: https://github.com/yyh15331030
+[~chan]: https://github.com/StellaChan
 
 [demand_analysis]: ()
 [docs]: ./docs

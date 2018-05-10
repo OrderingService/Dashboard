@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 [yyh15331007]: https://github.com/yyh15331007
 [Chen GuiYan]: https://github.com/15331016
 [elevenistaken]: https://github.com/elevenistaken

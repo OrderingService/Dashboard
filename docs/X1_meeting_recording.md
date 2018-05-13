@@ -1,4 +1,15 @@
+---
+
+layout: default
+title: 项目启动会议
+
+---
+
 # 项目启动会议
+{:.no_toc}
+
+* 目录
+{:toc}
 
 ![image](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/mind_map.png)
 
@@ -7,16 +18,18 @@
 项目启动
 
 ## 人数
+
 7
 
 ## 时间
+
 2018 年 3 月 23 日
 
 ## 备注
 
 第一次会议
 
-##　内容:
+## 内容:
 
 1. 调查报告总结
 

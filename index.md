@@ -10,9 +10,9 @@ layout: default
 
 * 1、[About](docs/01_about)（项目规划）
 
-* 2、[Team profile](docs/02_team_profile)（团队组建）
+* 2、[Team Profile](docs/02_team_profile)（团队组建）
 
-* 3、[Investigation](docs/03_investigation)（项目前期调研）
+* 3、[Investigation](docs/03_investigation.pdf)（项目前期调研）
 
 * 4、[Vision](docs/04_vision)（项目愿景）
 
@@ -74,8 +74,8 @@ layout: default
 
 * XX 建模练习
 
-    - [XX1 Keep应用](https://github.com/OrderingService/Dashboard/blob/gh-pages/XX_exercise/XX1_Keep.pdf)
+    - [XX1 Keep应用](XX_exercise/XX1_Keep.pdf)
 
     - [XX2 建模要求](XX_exercise/XX2_Modeling_Requirements)
 
-    - [XX1 建模者答案及评价](XX_exercise/XX3_Answer_Judgement)
+    - [XX3 建模者答案及评价](XX_exercise/XX3_Answer_Judgement)

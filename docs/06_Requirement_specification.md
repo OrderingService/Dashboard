@@ -464,3 +464,7 @@ title: Requirement Specification（需求规格说明）
 ### 15331007-搜索菜品
 
 ![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/search_dishes_ssd_15331007.png)
+
+### 15331149-排队
+
+![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/queue_up_ssd_15331149.png)

@@ -26,13 +26,13 @@
 
     - 6.5 System Sequence Diagram（功能模型）
 
-* 7、[Design]()（设计）
+* 7、[Design](docs/07_design.md)（设计）
 
     - 7.1 UI Design
 
         - PML点餐用例UI设计
 
-    - 7.2 [Database Design](docs/database_design.md)
+    - 7.2 Database Design
 
         - 7.2.1 用户及权限系统数据库设计
 
@@ -48,9 +48,9 @@
 
     - 8.2 REST API设计规范
 
-* X1 Meeting Record
+* [X1 Meeting Record](docs/X1_meeting_record.md)
 
-    - [Inception Meeting](docs/inception_meeting_record.md) (2018/03/23)
+    - Inception Meeting (2018/03/23)
 
 * X2 Tech/Work Report
 

@@ -26,7 +26,6 @@ PML food ordering system is a WeChat mini programme used for ordering food. It a
 * [需求文档]()
 * [架构设计]()
 
-
 ## 3、Iterations
 
 ### Week 1 (03/23/2018)

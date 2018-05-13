@@ -1,11 +1,11 @@
 ---
 
 layout: default
-title: Requirement specification（需求规格说明）
+title: Requirement Specification（需求规格说明）
 
 ---
 
-# Requirement specification（需求规格说明）
+# Requirement Specification（需求规格说明）
 {:.no_toc}
 
 * 目录
@@ -435,7 +435,7 @@ title: Requirement specification（需求规格说明）
 
 6. 用户可对评价进行修改或者追评。
 
-## 3、Domian Model（领域模型）
+## 3、Domain Model（领域模型）
 
 ![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/domain_model.png)
 
@@ -445,22 +445,22 @@ title: Requirement specification（需求规格说明）
 
 ## 5、System Sequence Diagram（功能模型）
 
-### 15310022-用户付款
+### 15310022-付款
 
-![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/make_payment_ssd.png)
+![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/make_payment_ssd_15310022.png)
 
-### 15331020-用户评价
+### 15331020-评价菜品
 
-![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/15331020_用户点评.png)
+![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/review_dishes_ssd_15331020.png)
 
-### 15331030-用户点餐
+### 15331030-点餐
 
-![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/customer_order_ssd.png)
+![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/order_food_ssd_15331030.png)
 
 ### 15331016-完成订单
 
-![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/complete_order_ssd.png)
+![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/complete_order_ssd_15331016.png)
 
 ### 15331007-搜索菜品
 
-![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/search_dishes_ssd.png)
+![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/search_dishes_ssd_15331007.png)

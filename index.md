@@ -12,19 +12,19 @@ layout: default
 
 * 2、[Team profile](docs/02_team_profile)（团队组建）
 
-* 3、[Investigation](https://github.com/OrderingService/Dashboard/blob/gh-pages/docs/03_investigation.pdf)（项目前期调研）
+* 3、[Investigation](docs/03_investigation)（项目前期调研）
 
 * 4、[Vision](docs/04_vision)（项目愿景）
 
 * 5、[Product Backlog](docs/05_backlog)（产品特性）
 
-* 6、[Requirement_specification](docs/06_Requirement_specification.md)（需求规格说明）
+* 6、[Requirement Specification](docs/06_requirement_specification)（需求规格说明）
 
     - 6.1 Usecase Diagram（用例图）
 
     - 6.2 Use Cases（用例+活动图）
 
-    - 6.3 Model（领域模型）
+    - 6.3 Domain Model（领域模型）
 
     - 6.4 State Model（状态模型）
 
@@ -32,11 +32,11 @@ layout: default
 
 * 7、[Design]()（设计）
 
-    - 7.1 UI design
+    - 7.1 UI Design
 
         - PML点餐用例UI设计
 
-    - 7.2 Database design
+    - 7.2 Database Design
 
         - 7.2.1 用户及权限系统数据库设计
 
@@ -52,9 +52,9 @@ layout: default
 
     - 8.2 REST API设计规范
 
-* [X1_meeting_recording](docs/X1_meeting_recording.md)
+* X1 Meeting Record
 
-    - inception meeting (2018/03/23)
+    - [Inception Meeting](docs/inception_meeting_record.md) (2018/03/23)
 
 * X2 Tech/Work Report
 

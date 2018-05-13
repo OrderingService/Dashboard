@@ -1,6 +1,15 @@
-# Vision
+---
 
-[TOC]
+layout: default
+title: Vision
+
+---
+
+# 项目愿景
+{:.no_toc}
+
+* 目录
+{:toc}
 
 ## 商业背景
 

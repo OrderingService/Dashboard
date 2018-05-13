@@ -57,20 +57,13 @@ layout: default
     - Inception Meeting (2018/03/23)
 
 * X2 Tech/Work Report
-
-    - [15331149-]()
-
-    - [15331020-]()
-
-    - [15331030-]()
-
-    - [15331016-]()
-
-    - [15331147-]()
-
-    - [15331007-]()
-
-    - [15331022-]()
+  - [15331149]()
+  - [15331020-微信小程序入门篇](https://blog.csdn.net/A657997301/article/details/79954673)
+  - [15331030-微信小程序入门篇](https://blog.csdn.net/Stella_Chan/article/details/79953326)
+  - [15331016](https://blog.csdn.net/reborncgy/article/details/79748257)
+  - [15331147]()
+  - [15331007]()
+  - [15331022]()
 
 * XX 建模练习
 

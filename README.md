@@ -32,7 +32,7 @@
 
         - PML点餐用例UI设计
 
-    - 7.2 Database Design
+    - 7.2 [Database Design](docs/database_design)
 
         - 7.2.1 用户及权限系统数据库设计
 

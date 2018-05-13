@@ -1,127 +1,81 @@
 ---
+
 layout: default
+
 ---
 
-[team_profile]: https://github.com/OrderingService/Dashboard/blob/gh-pages/docs/team_profile.md
-[yyh15331007]: https://github.com/yyh15331007
-[Chen GuiYan]: https://github.com/15331016
-[elevenistaken]: https://github.com/elevenistaken
-[Eros-L]: https://github.com/Eros-L
-[songB]: https://github.com/songB
-[Serene-Seven]: https://github.com/Serene-Seven
-[~chan]: https://github.com/StellaChan
+# [](#TOC)目录
 
-[investigation]: https://github.com/OrderingService/Dashboard/blob/gh-pages/docs/investigation.pdf
+&nbsp;&nbsp;
 
-[vision]: ()
+* 1、[About](docs/01_about)（项目规划）
 
-[backlog]: https://github.com/OrderingService/Dashboard/blob/gh-pages/docs/backlog.md
+* 2、[Team profile](docs/02_team_profile)（团队组建）
 
-[use_case]: https://github.com/OrderingService/Dashboard/blob/gh-pages/docs/use_case.md
-[domain_model]: https://github.com/OrderingService/Dashboard/blob/gh-pages/docs/domain_model.md
-[stage_model]: ()
-[system_sequence]: ()
+* 3、[Investigation](docs/03_investigation)（项目前期调研）
 
-[ui_design]: ()
-[er_model]: https://github.com/OrderingService/Dashboard/blob/gh-pages/docs/er_model.md
+* 4、[Vision](docs/04_vision)（项目愿景）
 
-[inception_meeting]: https://github.com/OrderingService/Dashboard/blob/gh-pages/docs/inception_meeting.md
+* 5、[Product Backlog](docs/05_backlog)（产品特性）
 
-[iteration1_meeting]: ()
-[mini_programme_tutorial]: https://developers.weixin.qq.com/ebook?action=get_post_info&token=935589521&volumn=1&lang=zh_CN&book=miniprogram&docid=0008aeea9a8978ab0086a685851c0a
-[GitHub_Tutorial]: http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+* 6、[Requirement_specification](docs/06_Requirement_specification.md)（需求规格说明）
 
-# Dashboard
+    - 6.1 Usecase Diagram（用例图）
 
-Records of PML food ordering system development progress.
+    - 6.2 Use Cases（用例+活动图）
 
+    - 6.3 Model（领域模型）
 
-## 1、About
-PML food ordering system is a WeChat mini programme used for ordering food. It allows customers order food on their cellphones by scanning QR codes. Comparing with traditional staff services, our system avoids potential customers' having hard communication with restaurant staff, as well as provides humanized UI that can improve customers' food ordering experiences. Additionally, our system has the following innovative features that can further improve customers' food ordering experiences: 
+    - 6.4 State Model（状态模型）
 
-* Intellegent Food Recommendation
-* Queueing Arrangement
-* Food Pre-ordering
-* Navigation to Restaurant
-* And More
+    - 6.5 System Sequence Diagram（功能模型）
 
+* 7、[Design]()（设计）
 
-## 2、Team Profile & Division
+    - 7.1 UI design
 
-* [团队组建][team_profile]
-* 需求分析: [yyh15331007][yyh15331007]
-* 概要设计 & 详细设计: [Chen GuiYan][Chen GuiYan], [Serene-Seven][Serene-Seven]
-* 编码 & 测试: 
-    - 前端: [elevenistaken][elevenistaken], [Chen GuiYan][Chen GuiYan], [Eros-L][Eros-L]
-    - 后端: [~chan][~chan], [yyh15331007][yyh15331007], [songB][songB], [Serene-Seven][Serene-Seven]
+        - PML点餐用例UI设计
 
-## 3、Investigation
+    - 7.2 Database design
 
-* [项目前期调研][investigation]
+        - 7.2.1 用户及权限系统数据库设计
 
-## 4、Vision
+        - 7.2.2 PML点餐子系统数据课设计
 
-* [项目愿景][vision]
+        - 7.2.x 第三方数据评审结果
 
-## 5、Product Backlog
+    - 7.3 API 设计
 
-* [产品特性][backlog]
+* 8、[生产规范与指南]()
 
-## 6、Requirement Specification
+    - 8.1 PML点餐代码规范
 
-* [用例图+用例][use_case]
-* [领域模型][domain_model]
-* [状态模型][stage_model]
-* [功能模型][system_sequence]
+    - 8.2 REST API设计规范
 
-## 7、Design
+* [X1_meeting_recording](X1_meeting_recording.md)
 
-* [UI design][ui_design]
-* Database design
-  * [E-R逻辑模型][er_model]
+    - inception meeting (2018/03/23)
 
-## 8、Production Specification
+* X2 Tech/Work Report
 
-* [代码规范]()
+    - [15331149-]()
 
-## 9、Iterations
+    - [15331020-]()
 
-### Inception
+    - [15331030-]()
 
-- [项目启动会议][inception_meeting]
+    - [15331016-]()
 
-### Iteration 1
+    - [15331147-]()
 
-- [第一次迭代会议][iteration1_meeting]
+    - [15331007-]()
 
-#### Week 1 (03/23/2018)
+    - [15331022-]()
 
-- 需求分析：给出此次迭代的需求
-- 概要设计 & 详细设计：无
-- 编码 & 测试：
-    - 前端：完成 [GitHub 教程][GitHub_Tutorial]（“Git 简介”到“分支管理-多人协作”）
-    - 后端：完成上述 GitHub 教程；开始学习[微信小程序开发教程][mini_programme_tutorial]，了解宿主环境
+* XX 建模练习
 
-#### Week 2 (03/30/2018)
+    - [XX1 Keep应用](https://github.com/OrderingService/Dashboard/blob/gh-pages/XX_exercise/XX1_Keep.pdf)
 
-- 需求分析：完善需求
-- 概要设计 & 详细设计：确定前端框架以及后端接口
-- 编码 & 测试：
-    - 前端：熟悉前端源码结构
-    - 后端：继续[微信小程序开发教程][mini_programme_tutorial]，学习场景应用
+    - [XX2 建模要求](XX_exercise/XX2_Modeling_Requirements)
 
-#### Week 3 (04/06/2018)
-
-- 需求分析：无
-- 概要设计 & 详细设计：完善设计
-- 编码 & 测试：
-    - 前端：首页原型开发
-    - 后端：继续[微信小程序开发教程][mini_programme_tutorial]，继续学习场景应用
-
-#### Week 4 (04/13/2017)
-
-- 需求分析：确定下一轮迭代的需求
-- 概要设计 & 详细设计：了解数据库设计
-- 编码 & 测试：
-    - 前端：结束首页原型开发
-    - 后端：继续[微信小程序开发教程][mini_programme_tutorial]，学习小程序的协同工作和发布
+    - [XX1 建模者答案及评价](XX_exercise/XX3_Answer_Judgement)

@@ -1,3 +1,10 @@
+---
+
+layout: default
+title: 产品特性
+
+---
+
 # 产品特性
 
 | ID | Name | Imp | Est (week) | How to preview | Note |

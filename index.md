@@ -18,7 +18,7 @@ layout: default
 [backlog]: https://github.com/OrderingService/Dashboard/blob/gh-pages/docs/backlog.md
 
 [use_case]: https://github.com/OrderingService/Dashboard/blob/gh-pages/docs/use_case.md
-[domain_model]: () 
+[domain_model]: https://github.com/OrderingService/Dashboard/blob/gh-pages/docs/domain_model.md
 [stage_model]: ()
 [system_sequence]: ()
 

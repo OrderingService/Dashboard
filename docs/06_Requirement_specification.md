@@ -452,3 +452,7 @@ title: Requirement specification（需求规格说明）
 ### 15331020-用户评价
 
 ![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/15331020_用户点评.png)
+
+### 15331030-用户点餐
+
+![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/customer_order_ssd.png)

@@ -72,6 +72,6 @@
 
     - [XX1 Keep应用](https://github.com/OrderingService/Dashboard/blob/gh-pages/XX_exercise/XX1_Keep.pdf)
 
-    - [XX2 建模要求](XX_exercise/XX2_Modeling_Requirements)
+    - [XX2 建模要求](XX_exercise/XX2_Modeling_Requirements.md)
 
-    - [XX1 建模者答案及评价](XX_exercise/XX3_Answer_Judgement)
+    - [XX1 建模者答案及评价](XX_exercise/XX3_Answer_Judgement.md)

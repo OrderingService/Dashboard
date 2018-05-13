@@ -8,7 +8,7 @@
 
 * 2、[Team profile](docs/02_team_profile)（团队组建）
 
-* 3、[Investigation](docs/03_investigation)（项目前期调研）
+* 3、[Investigation](https://github.com/OrderingService/Dashboard/blob/gh-pages/docs/03_investigation.pdf)（项目前期调研）
 
 * 4、[Vision](docs/04_vision)（项目愿景）
 

@@ -52,7 +52,7 @@ layout: default
 
     - 8.2 REST API设计规范
 
-* [X1_meeting_recording](X1_meeting_recording.md)
+* [X1_meeting_recording](docs/X1_meeting_recording.md)
 
     - inception meeting (2018/03/23)
 

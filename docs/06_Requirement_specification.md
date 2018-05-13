@@ -203,7 +203,7 @@ title: Requirement specification（需求规格说明）
 
   - 电脑崩溃：处理流程如上
 
-### casual用例3-接收订单
+#### casual用例3-接收订单
 
 - 用例名称
 
@@ -241,7 +241,7 @@ title: Requirement specification（需求规格说明）
 
   - 电脑崩溃：处理流程如上
 
-### casual用例4-订单分配厨师/菜品分配服务员
+#### casual用例4-订单分配厨师/菜品分配服务员
 
 - 用例名称
 
@@ -281,7 +281,7 @@ title: Requirement specification（需求规格说明）
 
   - 电脑崩溃：处理流程如上
 
-### casual用例5-响应催单
+#### casual用例5-响应催单
 
 - 用例名称
 
@@ -317,7 +317,7 @@ title: Requirement specification（需求规格说明）
 
   - 电脑崩溃：处理流程如上
 
-### casual用例6-结账
+#### casual用例6-结账
 
 - 用例名称
 
@@ -353,7 +353,7 @@ title: Requirement specification（需求规格说明）
 
   - 电脑崩溃：处理流程如上
 
-### casual用例7-菜品信息管理
+#### casual用例7-菜品信息管理
 
 - 用例名称
 
@@ -445,4 +445,10 @@ title: Requirement specification（需求规格说明）
 
 ## 5、System Sequence Diagram（功能模型）
 
+### 15310022-用户付款
 
+![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/make_payment_ssd.png)
+
+### 15331020-用户评价
+
+![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/15331020_用户点评.png)

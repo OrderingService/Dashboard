@@ -6,8 +6,10 @@ title: About
 ---
 
 # 关于项目
+{:.no_toc}
 
-[TOC]
+* 目录
+{:toc}
 
 ## 1、Project Introduction
 

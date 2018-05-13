@@ -456,3 +456,7 @@ title: Requirement specification（需求规格说明）
 ### 15331030-用户点餐
 
 ![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/customer_order_ssd.png)
+
+### 15331016-完成订单
+
+![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/complete_order_ssd.png)

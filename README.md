@@ -14,7 +14,7 @@
 
 * 5、[Product Backlog](docs/05_backlog)（产品特性）
 
-* 6、[Requirement Specification](docs/06_requirement_specification)（需求规格说明）
+* 6、[Requirement Specification](docs/06_requirement_specification.md)（需求规格说明）
 
     - 6.1 Usecase Diagram（用例图）
 

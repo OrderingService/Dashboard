@@ -451,4 +451,8 @@ title: Requirement specification（需求规格说明）
 
 ### 15331020-用户评价
 
+<<<<<<< HEAD
 ![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/15331020_用户点评.png)
+=======
+![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/15331020_用户点评.png)
+>>>>>>> 63a59fb3a15aca3909021372e50403de3a9216b8

@@ -460,3 +460,7 @@ title: Requirement specification（需求规格说明）
 ### 15331016-完成订单
 
 ![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/complete_order_ssd.png)
+
+### 15331007-搜索菜品
+
+![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/search_dishes_ssd.png)

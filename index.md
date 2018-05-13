@@ -2,6 +2,7 @@
 layout: default
 ---
 
+[team_profile]: https://github.com/OrderingService/Dashboard/blob/gh-pages/docs/team_profile.md
 [yyh15331007]: https://github.com/yyh15331007
 [Chen GuiYan]: https://github.com/15331016
 [elevenistaken]: https://github.com/elevenistaken
@@ -10,9 +11,23 @@ layout: default
 [Serene-Seven]: https://github.com/Serene-Seven
 [~chan]: https://github.com/StellaChan
 
-[demand_analysis]: ()
-[docs]: ./docs
+[investigation]: https://github.com/OrderingService/Dashboard/blob/gh-pages/docs/investigation.pdf
 
+[vision]: ()
+
+[backlog]: https://github.com/OrderingService/Dashboard/blob/gh-pages/docs/backlog.md
+
+[use_case]: https://github.com/OrderingService/Dashboard/blob/gh-pages/docs/use_case.md
+[domain_model]: () 
+[stage_model]: ()
+[system_sequence]: ()
+
+[ui_design]: ()
+[er_model]: https://github.com/OrderingService/Dashboard/blob/gh-pages/docs/er_model.md
+
+[inception_meeting]: https://github.com/OrderingService/Dashboard/blob/gh-pages/docs/inception_meeting.md
+
+[iteration1_meeting]: ()
 [mini_programme_tutorial]: https://developers.weixin.qq.com/ebook?action=get_post_info&token=935589521&volumn=1&lang=zh_CN&book=miniprogram&docid=0008aeea9a8978ab0086a685851c0a
 [GitHub_Tutorial]: http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
 
@@ -21,8 +36,9 @@ layout: default
 Records of PML food ordering system development progress.
 
 
-## About
+## 1、About
 PML food ordering system is a WeChat mini programme used for ordering food. It allows customers order food on their cellphones by scanning QR codes. Comparing with traditional staff services, our system avoids potential customers' having hard communication with restaurant staff, as well as provides humanized UI that can improve customers' food ordering experiences. Additionally, our system has the following innovative features that can further improve customers' food ordering experiences: 
+
 * Intellegent Food Recommendation
 * Queueing Arrangement
 * Food Pre-ordering
@@ -30,22 +46,53 @@ PML food ordering system is a WeChat mini programme used for ordering food. It a
 * And More
 
 
-## Team & Division
+## 2、Team Profile & Division
 
-* 需求分析：[yyh15331007][yyh15331007]
-* 概要设计 & 详细设计：[Chen GuiYan][Chen GuiYan], [Serene-Seven][Serene-Seven]
-* 编码 & 测试：
-    - 前端：[elevenistaken][elevenistaken], [Chen GuiYan][Chen GuiYan], [Eros-L][Eros-L]
-    - 后端：[~chan][~chan], [yyh15331007][yyh15331007], [songB][songB], [Serene-Seven][Serene-Seven]
+* [团队组建][team_profile]
+* 需求分析: [yyh15331007][yyh15331007]
+* 概要设计 & 详细设计: [Chen GuiYan][Chen GuiYan], [Serene-Seven][Serene-Seven]
+* 编码 & 测试: 
+    - 前端: [elevenistaken][elevenistaken], [Chen GuiYan][Chen GuiYan], [Eros-L][Eros-L]
+    - 后端: [~chan][~chan], [yyh15331007][yyh15331007], [songB][songB], [Serene-Seven][Serene-Seven]
 
-## Documentation
+## 3、Investigation
 
-* [需求文档][demand_analysis]
-* [课程文档][docs]
+* [项目前期调研][investigation]
 
-## Iterations
+## 4、Vision
+
+* [项目愿景][vision]
+
+## 5、Product Backlog
+
+* [产品特性][backlog]
+
+## 6、Requirement Specification
+
+* [用例图+用例][use_case]
+* [领域模型][domain_model]
+* [状态模型][stage_model]
+* [功能模型][system_sequence]
+
+## 7、Design
+
+* [UI design][ui_design]
+* Database design
+  * [E-R逻辑模型][er_model]
+
+## 8、Production Specification
+
+* [代码规范]()
+
+## 9、Iterations
+
+### Inception
+
+- [项目启动会议][inception_meeting]
 
 ### Iteration 1
+
+- [第一次迭代会议][iteration1_meeting]
 
 #### Week 1 (03/23/2018)
 

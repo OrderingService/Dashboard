@@ -1,1 +1,1 @@
-![](https://github.com/OrderingService/Dashboard/blob/gh-pages/imgs/domain%20model.png)
+![](https://github.com/OrderingService/Dashboard/blob/gh-pages/imgs/domain_model.png)

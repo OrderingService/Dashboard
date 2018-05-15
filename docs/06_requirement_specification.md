@@ -468,3 +468,7 @@ title: Requirement Specification（需求规格说明）
 ### 15331149-排队
 
 ![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/queue_up_ssd_15331149.png)
+
+### 15331147-导航
+ 
+![](https://github.com/OrderingService/Dashboard/blob/gh-pages/imgs/navigation_ssd_15331147.png)

@@ -123,3 +123,11 @@ PML food ordering system is a WeChat mini programme used for ordering food. It a
 - 编码 & 测试：
     - 前端：完善各个模块
     - 后端：开始搭建MYSQL数据库和Tomcat服务器
+
+ ### Week 13 (06/15/2018)
+
+- 需求分析：无
+- 概要设计 & 详细设计：无
+- 编码 & 测试：
+    - 前端：无
+    - 后端：处理前端获取的数据并与后端耦合

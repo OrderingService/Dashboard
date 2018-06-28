@@ -7,7 +7,7 @@ title: Design（设计）
 
 # Design（设计）
 
----
+</br>
 
 ## 1、UI Design（UI设计）
 
@@ -15,15 +15,16 @@ title: Design（设计）
 
   - 顾客在菜单界面进行点餐，所选菜品加至购物车
 
-  - 顾客点击订单进行付款
-
-  - 系统根据菜单生成应付金额
+  - 顾客确认购物车内的菜品，系统根据菜单生成应付金额
 
   - 顾客付款，系统处理支付
 
   - 系统记录完整的订单信息，并把信息发送到账务系统
 
-![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/UI_screenshot.jpg)
+![菜单界面](https://raw.githubusercontent.com/OrderingService/WechatApplet/master/ScreenShots_v1.0.0/screenshot_1_frame.png)
+![购物车内容](https://raw.githubusercontent.com/OrderingService/WechatApplet/master/ScreenShots_v1.0.0/screenshot_2_frame.png)
+![进行付款](https://raw.githubusercontent.com/OrderingService/WechatApplet/master/ScreenShots_v1.0.0/screenshot_3_frame.png)
+![生成订单](https://raw.githubusercontent.com/OrderingService/WechatApplet/master/ScreenShots_v1.0.0/screenshot_4_frame.png)
 
 </br>
 

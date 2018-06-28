@@ -25,6 +25,8 @@
     - 6.4 State Model（状态模型）
 
     - 6.5 System Sequence Diagram（功能模型）
+    
+    - 6.6 Supplementary Requirements（补充需求）
 
 * 7、[Design](docs/07_design.md)（设计）
 
@@ -40,7 +42,7 @@
 
         - 7.2.x 第三方数据评审结果
 
-    - 7.3 API 设计
+    - 7.3 API design
     
     - 7.4 Software Architecture Document
         

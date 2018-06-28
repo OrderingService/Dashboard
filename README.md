@@ -41,12 +41,22 @@
         - 7.2.x 第三方数据评审结果
 
     - 7.3 API 设计
+    
+    - 7.4 Software Architecture Document
+        
+    - 7.5 Usecase design
+    
+        - 7.5.1 XX case design
 
 * 8、[生产规范与指南]()
 
     - 8.1 PML点餐代码规范
 
     - 8.2 REST API设计规范
+
+    - 8.3 逻辑架构到应用程序映射指南
+
+    - 8.4 物理架构云上部署 dock-compose.yml 文件编写与使用
 
 * X1、[Meeting Record](docs/X1_meeting_record.md)
 

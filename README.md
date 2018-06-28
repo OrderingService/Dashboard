@@ -78,6 +78,8 @@
   
   - [15331022-微信小程序划水篇](https://eros-l.github.io/homework/2018/04/15/hw3/)
 
+* X3、Final Report
+
 * XX、建模练习
 
     - [XX1 Keep应用](XX_exercise/XX1_Keep.pdf)

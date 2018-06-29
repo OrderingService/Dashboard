@@ -9,7 +9,7 @@ title: Design（设计）
 
 </br>
 
-## 1、UI Design（UI设计）
+## 7.1、UI Design（UI设计）
 
 - 基本流程所对应的小程序界面（截图于 v1.0.0 版本）
 
@@ -31,7 +31,7 @@ title: Design（设计）
 
 </br>
 
-## 2、Database Design（数据库设计）
+## 7.2、Database Design（数据库设计）
 
 ### E-R Logical Model（E-R逻辑图）
 
@@ -41,3 +41,8 @@ title: Design（设计）
 
 ![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/database.png)
 
+## 7.3、API Design
+
+## 7.4、Software Architecture Doucument
+
+## 7.5、Usecase design

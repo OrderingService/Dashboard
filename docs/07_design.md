@@ -38,9 +38,13 @@ title: Design（设计）
 - 角色设计
   - 顾客角色
   - 商家角色
+- 模块设计
 - 访问权限设计
+  - 
+- 操作权限设计
+- 权限等级设计
 
-E-R Logical Model（E-R逻辑图）
+#### E-R Logical Model（E-R逻辑图）
 
 ![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/er_model.png)
 
@@ -48,7 +52,7 @@ E-R Logical Model（E-R逻辑图）
 <br/> 
 此外，实体之间的关系已经在图中标出，实体边上的1或N反应其映射关系。
 
-### 具体的Menu（菜单）与Order（订单）数据库设计
+#### 具体的Menu（菜单）与Order（订单）数据库设计
 
 ![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/database.png)
 

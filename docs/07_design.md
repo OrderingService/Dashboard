@@ -69,6 +69,70 @@ title: Design（设计）
 
 ## 7.3 API Design
 
+
+API  Design
+
+Host：http://172.18.146.154:8080
+
+#### 用例 1 ：查看菜单
+
+场景：用户通过扫码进入小程序，需要展示点餐系统的菜单
+
+##### Request
+
+ ``` 
+ Url：/test/Select?func=getMenu
+ Parameters：无
+ Method：GET
+ Header: {'Accept': 'application/json'}
+``` 
+ 
+#### Respond 
+
+>> example
+ {
+    [
+      {
+        "type": "开胃美味",
+        "image_url": "../../images/foods/appetizer5.jpg",
+        "name": "和风披萨（照烧鸡）",
+        "price": 28
+      },
+ ......
+]
+  }
+
+
+
+用例 2 ：提交订单
+
+场景：用户支付成功，向商家提交订单，返回取餐号
+
+#### Request
+ Url：/test/Insert?func=createOrder
+ Parameters ↓
+ data: {
+ 	userName: app.globalData.userInfo.nickName,
+ 	price: wx.getStorageSync('sumMoney'),
+ 	dishArray: JSON.stringify(wx.getStorageSync('cartList'))
+ }
+ Method：POST
+ Header: {'Accept': 'application/json'}
+Respond 
+>> example
+{
+	"orderNum": 201806052300302978,
+	"objectId": "b8",
+	"userName": "王小明",
+	"price": 42,
+	"dishArray": 
+[{"index":2,"name":"抹茶海鲜杯面","price":12,"number":1},{"index":4,"name":"明太子乌冬面","price":15,"number":2}]
+	"createDate": 2018-06-05 22：59:07,
+	"updateDate": 2018-06-05 22：59:07,
+  }
+！注：将body中实时生成的orderNum、objectId、createDate返回给用户。
+
+
 ## 7.4 Software Architecture Doucument
 
 ## 7.5 Usecase design

@@ -17,6 +17,8 @@ title: Requirement Specification（需求规格说明）
 
 ## 6.2 Use Cases（用例+活动图）
 
+### (分为正式用例、casual用例、brief用例)
+
 ### 正式用例
 
 - 用例名称

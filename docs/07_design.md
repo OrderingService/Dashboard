@@ -89,7 +89,7 @@ Host：http://172.18.146.154:8080
  
 #### Respond 
 
->> example
+> example
 ``` 
  {
     [
@@ -122,7 +122,7 @@ Host：http://172.18.146.154:8080
  Header: {'Accept': 'application/json'}
  ``` 
 #### Respond 
->> example
+> example
 ``` 
 {
 	"orderNum": 201806052300302978,

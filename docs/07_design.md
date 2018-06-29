@@ -74,7 +74,7 @@ API  Design
 
 Host：http://172.18.146.154:8080
 
-#### 用例 1 ：查看菜单
+### 用例 1 ：查看菜单
 
 场景：用户通过扫码进入小程序，需要展示点餐系统的菜单
 
@@ -90,6 +90,7 @@ Host：http://172.18.146.154:8080
 #### Respond 
 
 >> example
+``` 
  {
     [
       {
@@ -101,14 +102,15 @@ Host：http://172.18.146.154:8080
  ......
 ]
   }
+``` 
 
 
-
-用例 2 ：提交订单
+### 用例 2 ：提交订单
 
 场景：用户支付成功，向商家提交订单，返回取餐号
 
 #### Request
+``` 
  Url：/test/Insert?func=createOrder
  Parameters ↓
  data: {
@@ -118,8 +120,10 @@ Host：http://172.18.146.154:8080
  }
  Method：POST
  Header: {'Accept': 'application/json'}
-Respond 
+ ``` 
+#### Respond 
 >> example
+``` 
 {
 	"orderNum": 201806052300302978,
 	"objectId": "b8",
@@ -130,8 +134,9 @@ Respond
 	"createDate": 2018-06-05 22：59:07,
 	"updateDate": 2018-06-05 22：59:07,
   }
+  ``` 
 ！注：将body中实时生成的orderNum、objectId、createDate返回给用户。
-
+<br/>
 
 ## 7.4 Software Architecture Doucument
 

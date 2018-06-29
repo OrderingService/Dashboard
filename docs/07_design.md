@@ -72,3 +72,11 @@ title: Design（设计）
 ## 7.4 Software Architecture Doucument
 
 ## 7.5 Usecase design
+
+ - ECB的顺序图
+
+![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/ECBSequence.png)
+
+ - ECB的类图
+
+![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/ECBClass.png)

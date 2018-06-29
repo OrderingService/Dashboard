@@ -1,21 +1,23 @@
 ---
 
 layout: default
-title: Requirement specification（需求规格说明）
+title: Requirement Specification（需求规格说明）
 
 ---
 
-# Requirement specification（需求规格说明）
+# Requirement Specification（需求规格说明）
 {:.no_toc}
 
 * 目录
 {:toc}
 
-## 1、Usecase Diagram（用例图）
+## 6.1 Usecase Diagram（用例图）
 
 ![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/use_case.png)
 
-## 2、Use Cases（用例+活动图）
+## 6.2 Use Cases（用例+活动图）
+
+### (分为正式用例、casual用例、brief用例)
 
 ### 正式用例
 
@@ -308,7 +310,7 @@ title: Requirement specification（需求规格说明）
   - 服务员响应催单并送菜
 
 - 主要成功场景
--
+
   - 餐厅管理人员选择响应催单并且分配服务员进行送菜
 
 - 扩展（或替代流程）
@@ -435,24 +437,117 @@ title: Requirement specification（需求规格说明）
 
 6. 用户可对评价进行修改或者追评。
 
-## 3、Domian Model（领域模型）
+## 6.3 Domain Model（领域模型）
 
 ![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/domain_model.png)
 
-## 4、State Model（状态模型）
+## 6.4 State Model（状态模型）
+点餐：
+订单有以下几种状态：待确认、已确认、已支付、已接单、已取消、退款中、已退款、已关闭、已接单、已完成
+
+![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/state_model.png)
 
 
 
-## 5、System Sequence Diagram（功能模型）
+## 6.5 System Sequence Diagram（功能模型）
 
-### 15310022-用户付款
+### 15310022-付款
 
-![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/make_payment_ssd.png)
+![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/make_payment_ssd_15310022.png)
 
-### 15331020-用户评价
+### 15331020-评价菜品
 
-<<<<<<< HEAD
-![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/15331020_用户点评.png)
-=======
-![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/15331020_用户点评.png)
->>>>>>> 63a59fb3a15aca3909021372e50403de3a9216b8
+![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/review_dishes_ssd_15331020.png)
+
+### 15331030-点餐
+
+![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/order_food_ssd_15331030.png)
+
+### 15331016-完成订单
+
+![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/complete_order_ssd_15331016.png)
+
+### 15331007-搜索菜品
+
+![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/search_dishes_ssd_15331007.png)
+
+### 15331149-排队
+
+![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/queue_up_ssd_15331149.png)
+
+### 15331147-导航
+ 
+![](https://github.com/OrderingService/Dashboard/blob/gh-pages/imgs/navigation_ssd_15331147.png)
+
+
+## 6.6 Supplementary Requirements（补充需求）
+
+### 修订历史
+
+版本 | 日期 | 描述 |作者
+:-:|:-:|:-:|:-:
+初始草案 | 2018年6月5日 | 第一个草案，主要在细化阶段中进行精化 | 15331007_CYT
+
+### 简介
+本文档记录了泡面佬扫码点餐小程序所有未在用例中描述的需求。
+
+### 功能性
+
+（通常跨越多个用例的功能性）
+1. 日志和错误处理
+在持久性存储中记录所有的错误。
+2. 可插拔规则
+在几个用例（见定义）的不同场景点执行任意一组规则，以支持对系统功能的定制。
+3. 安全性
+任何使用都需要经过用户认证。
+
+### 可用性
+
+人性因素
+顾客将需要在手机屏上完成扫码点餐的全部操作。因此：
+1. 界面文本表达需简洁易懂。
+2. 图片、字体要清晰，避免使用一般色盲人难以辨认的颜色。
+
+快捷、无错的点餐处理极为重要，因为顾客希望尽快完成点餐，否则会给他们的使用体验（以及对泡面佬小程序的评价）带来负面影响。
+
+顾客对菜品的全部判断都来自界面上的展示。因此，采用图像传递菜品信息是必要的。
+
+### 可靠性
+
+1. 可恢复性
+如果在使用外部服务（支付授权、……）时出现错误，为了完成订餐交易，需要尝试采用本地方案加以解决。
+2. 性能
+正如“人性因素”一节中提到的，用户希望非常快速地完成点餐处理过程。外部的支付授权是瓶颈之一。我们的目标是能在10s内获得授权。
+
+### 可支持性
+
+ 1. 可适应性
+泡面佬扫码点餐的不同客户在点餐时有不同的处理需求。因此，在场景中几个预定之处（例如，当开始新的点餐时，当增加新的菜品时），需要能够启用可插拔的业务规则。
+ 2. 可配置性
+不同客户对泡面佬小程序有不同的配置要求，如采用安卓端或IOS端等等。因此，小程序需要具备一定的可配置能力以适应上述需求。
+
+### 实现约束
+
+采用小程序语言wxml+wxss+JS开发前端，docker部署后台。我们认为小程序语言的可支持能力最高。
+
+### 接口
+
+ 1. 重要的硬件和接口
+手机触摸屏（触摸动作视为鼠标事件）。
+ 2. 软件接口
+由于存在众多的外部协作系统（库存、账务、管理……），我们需要采用不同的接口，接入不同的系统。
+
+### 应用的领域（业务）规则
+
+|  ID  | 规则    | 可变性 | 来源  |
+| ---- | :-----:  | :-----: | :----:|
+| 规则1 |顾客折扣规则。示例：<br/>普通顾客无折扣额 <br/>VIP用户15%折扣额 | 高 <br/>每个商家有不同规则 |商家政策
+| 规则2 |销售折扣规则。示例：<br/>每周一折扣额为5% <br/>每天下午4点到6点水果茶的折扣额为25%|高 <br/>每个商家有不同规则，每天或每小时都可能改变|商家政策
+| 规则3 |产品（商品级）折扣规则。示例：<br/>薯饼本月折扣额为10% <br/>汉堡买二送一 |高 <br/>每个商家有不同规则，每天或每小时都可能改变|商家政策
+
+### 所关注领域内的信息
+
+ 1. 定价
+除了在应用领域规则中描述的定价规则之外，还需注意的是，菜品有原始价格和可选的常用价格之分。即使有常设低标价，也需维护原始价格。
+ 2. 支付处理
+支付授权被批准后，将由支付授权服务而不是买方来负责对卖方的支付。因此，对于每笔服务，卖方都需要将授权服务的未付金额记录于其应收账户下。通常，授权服务在每晚执行电子转账操作，将卖方当天的应收总金额转入其账户下。

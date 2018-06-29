@@ -440,6 +440,9 @@ title: Requirement Specification（需求规格说明）
 ![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/domain_model.png)
 
 ## 4、State Model（状态模型）
+点餐：
+订单有以下几种状态：待确认、已确认、已支付、已接单、已取消、退款中、已退款、已关闭、已接单、已完成
+
 
 
 

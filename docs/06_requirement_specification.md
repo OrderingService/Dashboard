@@ -11,11 +11,11 @@ title: Requirement Specification（需求规格说明）
 * 目录
 {:toc}
 
-## 1、Usecase Diagram（用例图）
+## 6.1 Usecase Diagram（用例图）
 
 ![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/use_case.png)
 
-## 2、Use Cases（用例+活动图）
+## 6.2 Use Cases（用例+活动图）
 
 ### 正式用例
 
@@ -435,11 +435,11 @@ title: Requirement Specification（需求规格说明）
 
 6. 用户可对评价进行修改或者追评。
 
-## 3、Domain Model（领域模型）
+## 6.3 Domain Model（领域模型）
 
 ![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/domain_model.png)
 
-## 4、State Model（状态模型）
+## 6.4 State Model（状态模型）
 点餐：
 订单有以下几种状态：待确认、已确认、已支付、已接单、已取消、退款中、已退款、已关闭、已接单、已完成
 
@@ -447,7 +447,7 @@ title: Requirement Specification（需求规格说明）
 
 
 
-## 5、System Sequence Diagram（功能模型）
+## 6.5 System Sequence Diagram（功能模型）
 
 ### 15310022-付款
 
@@ -478,7 +478,7 @@ title: Requirement Specification（需求规格说明）
 ![](https://github.com/OrderingService/Dashboard/blob/gh-pages/imgs/navigation_ssd_15331147.png)
 
 
-## 6、Supplementary Requirements（补充需求）
+## 6.6 Supplementary Requirements（补充需求）
 
 ### 修订历史
 

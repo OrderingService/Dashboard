@@ -36,6 +36,14 @@ title: 15331020-FinalReport
 
 ## 个人分支的 GIT 统计报告
 
+![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/15331020_commit.png)
+
+[备注说明]
+我的github账号名为Serene-Seven，但git Bash的邮箱设置有误，所以以下图中Serene也是我的账号，这里列举部分commit记录
+![](https://img-blog.csdn.net/20180630141530942)
+![](https://img-blog.csdn.net/20180630141539375)
+![](https://img-blog.csdn.net/20180630141546295)
+
 ## 自认为最得意/或有价值/或有苦劳的工作清单
 
 1. 确定产品的未来发展愿景

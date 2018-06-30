@@ -202,8 +202,8 @@ Host：http://172.18.146.154:8080
 
  - ECB的顺序图
 
-![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/ECBSequence.png)
+![ECB的顺序图](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/ECBSequence.png)
 
  - ECB的类图
 
-![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/ECBClass.png)
+![ECB的类图](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/ECBClass.png)

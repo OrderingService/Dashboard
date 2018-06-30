@@ -83,6 +83,18 @@
 * X3、Final Report
 
   - [15331020-FinalReport](Final_Report/15331020-FinalReport.md)
+  
+  - [15331149-FinalReport]()
+
+  - [15331030-FinalReport]()
+
+  - [15331016-FinalReport]()
+
+  - [15331147-FinalReport]()
+
+  - [15331007-FinalReport]()
+
+  - [15331022-FinalReport]()
 
 * XX、建模练习
 

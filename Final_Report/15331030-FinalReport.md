@@ -46,5 +46,5 @@ title: 15331030-FinalReport
 
 ## 个人的技术类、项目管理类博客清单
 
-1.
+1. [微信小程序入门](https://blog.csdn.net/Stella_Chan/article/details/79953326)
 2.

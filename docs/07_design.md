@@ -70,6 +70,10 @@ title: Design（设计）
 
 ![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/database.png)
 
+### 7.2.x 第三方数据评审结果
+
+
+
 ## 7.3 API Design
 
 
@@ -84,7 +88,7 @@ Host：http://172.18.146.154:8080
 ##### Request
 
  ``` 
- Url：/test/Select?func=getMenu
+ Url：'http://172.18.146.154:8080/OrderingSystem/Select?func=getMenu'
  Parameters：无
  Method：GET
  Header: {'Accept': 'application/json'}

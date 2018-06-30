@@ -10,7 +10,6 @@ title: Design（设计）
 
 * 目录
 {:toc}
-</br>
 
 ## 7.1 UI Design（UI设计）
 
@@ -31,8 +30,6 @@ title: Design（设计）
   - 系统记录完整的订单信息，并把信息发送到账务系统
   
   ![生成订单](https://raw.githubusercontent.com/OrderingService/WechatApplet/master/ScreenShots_v1.0.0/screenshot_4_frame.png)
-
-</br>
 
 ## 7.2 Database Design（数据库设计）
 
@@ -62,27 +59,22 @@ title: Design（设计）
 - 操作权限设计
 
   - 顾客登陆后，可以完成点餐、支付，按取款码取餐
-  
+
   - 商家登陆后，可以完成对菜品增删查改，同时能获取订单中的菜品和数量信息
-  
-<br/>
 
 #### E-R Logical Model（E-R逻辑图）
 
 ![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/er_model.png)
 
 如上图所示，本应用中共存在着七个实体，分别是customer，menu，EDish，EOrder，dish-to-order，cook，Bissness Man. 其中，customer以ID，用户名，桌号为键，以ID为主键；menu是菜单实体集，以ID为主键；EDish是菜品实体集，以菜品名，菜品图像，菜品受欢迎级别，菜品种类，菜品评论，是否可获得，当前定价，原始定价为键；Eorder为订单实体集，以付款方式，订单总价，订单状态，订单创建时间，订单支付时限为键；dish-to-dish实体集针对后厨，以菜品名和菜品数量为键；cook是厨师实体集，以ID为主键；Bussiness Man以电话号为实体集。
-<br/> 
+
 此外，实体之间的关系已经在图中标出，实体边上的1或N反应其映射关系。
 
-<br/>
-
 ### 7.2.2 PML点餐子系统数据库设计
+
 具体的Menu（菜单）与Order（订单）数据库设计
 
 ![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/database.png)
-
-<br/>
 
 ### 7.2.x 第三方数据评审结果
 
@@ -97,10 +89,7 @@ title: Design（设计）
 
 ER图有些部分不够完善，比如用户应该能查看个人的历史订单信息，所以在customer实体集中，应该还有其他关于订单信息的属性或映射关系。
 
-<br/>
-
 ## 7.3 API Design
-
 
 API  Design
 
@@ -117,8 +106,8 @@ Host：http://172.18.146.154:8080
  Parameters：无
  Method：GET
  Header: {'Accept': 'application/json'}
-``` 
- 
+```
+
 #### Respond 
 
 > example
@@ -136,7 +125,6 @@ Host：http://172.18.146.154:8080
 }
 ``` 
 
-
 ### 用例 2 ：提交订单
 
 场景：用户支付成功，向商家提交订单，返回取餐号
@@ -152,7 +140,8 @@ Host：http://172.18.146.154:8080
  }
  Method：POST
  Header: {'Accept': 'application/json'}
- ``` 
+ ```
+
 #### Respond 
 > example
 ``` 
@@ -169,8 +158,6 @@ Host：http://172.18.146.154:8080
   ``` 
 ！注：将body中实时生成的orderNum、objectId、createDate返回给用户。
 
-<br/>
-
 ## 7.4 Software Architecture Doucument
 
 | 版本 | 日期 | 描述 | 作者|
@@ -183,6 +170,7 @@ Host：http://172.18.146.154:8080
  MySQL实现。
 
 ### 解决方案说明
+
 问题：无法有效利用服务器的多核计算资源
  
 解决方案：服务器采用Docker部署，因此可以快速部署多个服务器实例，每个实例监听不同的端口。

@@ -82,6 +82,8 @@ title: Design（设计）
 
 ![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/database.png)
 
+<br/>
+
 ### 7.2.x 第三方数据评审结果
 
 邀请同学对我们的数据进行评审，整理结果如下：
@@ -94,6 +96,7 @@ title: Design（设计）
 - ltg同学：
 
 ER图有些部分不够完善，比如用户应该能查看个人的历史订单信息，所以在customer实体集中，应该还有其他关于订单信息的属性或映射关系。
+
 <br/>
 
 ## 7.3 API Design
@@ -165,6 +168,7 @@ Host：http://172.18.146.154:8080
   }
   ``` 
 ！注：将body中实时生成的orderNum、objectId、createDate返回给用户。
+
 <br/>
 
 ## 7.4 Software Architecture Doucument

@@ -40,11 +40,19 @@ title: 15331030-FinalReport
 
 ## 个人分支的 GIT 统计报告
 
+WechatApplet代码部分的提交情况：
+
+![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/15331030_commit_1.jpg)
+
+Dashboard文档部分的提交情况：
+
+![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/15331030_commit_2.jpg)
+
 ## 自认为最得意/或有价值/或有苦劳的工作清单
 
-1.负责数据库设计
-2.参与小程序前端开发
-3.测试小程序
+1. 负责数据库设计
+2. 参与小程序前端开发
+3. 测试小程序
 
 
 ## 个人的技术类、项目管理类博客清单

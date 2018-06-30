@@ -22,32 +22,42 @@ title: 15331016-FinalReport
 
 | PSP2.1          | Personal Software Process Stages | Time(%) |
 |-----------------|----------------------------------|---------|
-|**Planning**         |	**计划**	                            |    ** **    |
-|● Estimate         |	估计这个任务需要多长时间             |	      |
-|**Develoment**       |	**开发**                              |	** **    |
-|● Analysis         |	需求分析（包括学习新技术）            |	      |
-|● Design Spec      |	生成设计文档                        |	      |
-|● Design Review    |	设计复审（和同事审核设计文档）         |	    |
-|● Coding Standard  |	代码规范（为目前的开发制定规范）       |	    |
-|● Design           |	具体设计                           |        |
-|● Coding           |	具体编码                           |	   |
-|● Coding Review    |	代码复审                           |	    |
-|● Test             |	测试（自我测试，修改代码，提交修改）    |	      |
-|**Reporting**        |	**报告**                               |	** **    |
-|● Test Report      |	测试报告                           |	    |
-|● Size Measurement |	计算工作量                         |	       |
-|● Postmortem & Process Improvement Plan|	事后总结，并提出过程改进计划|	|
+|**Planning**         |	**计划**	                            |    **5**    |
+|● Estimate         |	估计这个任务需要多长时间             |	   5   |
+|**Develoment**       |	**开发**                              |	**85**    |
+|● Analysis         |	需求分析（包括学习新技术）            |	 5     |
+|● Design Spec      |	生成设计文档                        |	   10   |
+|● Design Review    |	设计复审（和同事审核设计文档）         |	  2   |
+|● Coding Standard  |	代码规范（为目前的开发制定规范）       |	 2   |
+|● Design           |	具体设计                           |    15    |
+|● Coding           |	具体编码                           |	35  |
+|● Coding Review    |	代码复审                           |	  8  |
+|● Test             |	测试（自我测试，修改代码，提交修改）    |	  8    |
+|**Reporting**        |	**报告**                               |	**10**    |
+|● Test Report      |	测试报告                           |	5    |
+|● Size Measurement |	计算工作量                         |	   2    |
+|● Postmortem & Process Improvement Plan|	事后总结，并提出过程改进计划|	3|
 
 ## 个人分支的 GIT 统计报告
 
+WechatApplet代码部分的提交情况：
+
+![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/15331016_commit_1.png)
+
+Dashboard文档部分的提交情况：
+
+![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/15331016_commit_2.png)
+
 ## 自认为最得意/或有价值/或有苦劳的工作清单
 
-1.
-2.
-3.
-4.
+1.完成项目的UI原型设计
+
+2.进行小程序的前端开发工作
+
+3.对代码进行复审
 
 ## 个人的技术类、项目管理类博客清单
 
 1. [微信小程序的载体与语言](https://blog.csdn.net/reborncgy/article/details/79748257)
-2.
+2. [微信小程序页面之间的数据传递](https://blog.csdn.net/reborncgy/article/details/80868114)
+

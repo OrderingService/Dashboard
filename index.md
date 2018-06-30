@@ -54,7 +54,7 @@ layout: default
 
         - 7.5.1 XX case design
 
-* 8、[生产规范与指南]()
+* 8、[生产规范与指南](docs/08_生产规范与指南.md)
 
     - 8.1 PML点餐代码规范
 

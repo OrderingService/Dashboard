@@ -17,6 +17,7 @@ title: 15331007-FinalReport
 在项目中后期，我参与了数据库的设计和部署，完成数据库设计文档的编写，以及用户及权限（包括角色、模块、访问权限、操作权限）设计，整理第三方对ER图评审结果，尝试docker镜像组建内部网络部署项目到服务器。
 
 感谢@Eros-L的带领以及各位队友的通力配合，使我们完成这个项目。
+<br/>
 
 ## PSP 2.1 统计表
 
@@ -37,20 +38,20 @@ title: 15331007-FinalReport
 |● Test Report      |	测试报告                           |	 5   |
 |● Size Measurement |	计算工作量                         |	   5    |
 |● Postmortem & Process Improvement Plan|	事后总结，并提出过程改进计划| 10	|
+<br/>
 
 ## 个人分支的 GIT 统计报告
 
 ![](https://github.com/OrderingService/Dashboard/blob/gh-pages/imgs/15331007_commit_1.PNG)
+<br/>
 
 ## 自认为最得意/或有价值/或有苦劳的工作清单
 
-1.
-2.
-3.
-4.
+1. 最得意的是调研、了解同类产品信息和进行需求分析，感觉对产品设计过程有了更深的认识
+2. 最有价值的是进行数据库设计，和队友不断探讨和修改实体、属性和关系，使其最大程度地符合实际
+3. 最有苦劳的是整理和编写文档，这个过程也是在修正逻辑，加深理解
 
 
 ## 个人的技术类、项目管理类博客清单
 
 1. [微信小程序开发入门](https://blog.csdn.net/cai_yt_/article/details/79954188)
-2.

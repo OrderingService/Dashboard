@@ -437,17 +437,17 @@ title: Requirement Specification（需求规格说明）
 
 6. 用户可对评价进行修改或者追评。
 
+
 ## 6.3 Domain Model（领域模型）
 
 ![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/domain_model.png)
+
 
 ## 6.4 State Model（状态模型）
 点餐：
 订单有以下几种状态：待确认、已确认、已支付、已接单、已取消、退款中、已退款、已关闭、已接单、已完成
 
 ![](https://raw.githubusercontent.com/OrderingService/Dashboard/gh-pages/imgs/state_model.png)
-
-
 
 ## 6.5 System Sequence Diagram（功能模型）
 
@@ -549,5 +549,6 @@ title: Requirement Specification（需求规格说明）
 
  1. 定价
 除了在应用领域规则中描述的定价规则之外，还需注意的是，菜品有原始价格和可选的常用价格之分。即使有常设低标价，也需维护原始价格。
+
  2. 支付处理
 支付授权被批准后，将由支付授权服务而不是买方来负责对卖方的支付。因此，对于每笔服务，卖方都需要将授权服务的未付金额记录于其应收账户下。通常，授权服务在每晚执行电子转账操作，将卖方当天的应收总金额转入其账户下。

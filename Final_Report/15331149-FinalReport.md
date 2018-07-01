@@ -40,4 +40,4 @@
 
 ## 个人的技术类、项目管理类博客清单
 
-1. [微信小程序入门](https://shimo.im/docs/0W6Oke0akUMfLEMt)
+1. [关于微信小程序语言选择](https://shimo.im/docs/0W6Oke0akUMfLEMt)

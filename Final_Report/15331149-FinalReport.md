@@ -1,14 +1,4 @@
----
-
-layout: default
-title: 15331149-FinalReport
-
----
-# FinalReport
-{:.no_toc}
-
-* 目录
-{:toc}
+# FinalReport 
 
 ## 课程学习自我总结
 

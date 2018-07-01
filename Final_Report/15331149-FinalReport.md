@@ -21,14 +21,14 @@ title: 15331149-FinalReport
 |-----------------|----------------------------------|---------|
 |**Planning**         |	**计划**	                            |    **10**    |
 |● Estimate         |	估计这个任务需要多长时间             |	10      |
-|**Develoment**       |	**开发**                              |	**90**    |
-|● Analysis         |	需求分析（包括学习新技术）            |	7      |
+|**Develoment**       |	**开发**                              |	**80**    |
+|● Analysis         |	需求分析（包括学习新技术）            |	8      |
 |● Design Spec      |	生成设计文档                        |	5      |
-|● Design Review    |	设计复审（和同事审核设计文档）         |	3    |
+|● Design Review    |	设计复审（和同事审核设计文档）         |	2    |
 |● Coding Standard  |	代码规范（为目前的开发制定规范）       |	2    |
-|● Design           |	具体设计                           |	8    |
+|● Design           |	具体设计                           |	7    |
 |● Coding           |	具体编码                           |	35   |
-|● Coding Review    |	代码复审                           |	7    |
+|● Coding Review    |	代码复审                           |	6    |
 |● Test             |	测试（自我测试，修改代码，提交修改）    |	15      |
 |**Reporting**        |	**报告**                               |	**10**    |
 |● Test Report      |	测试报告                           |	4    |
